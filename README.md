@@ -1,4 +1,4 @@
-# AI Interface Prototype
+# AI Chat Bot
 
 A modern, responsive interface for interacting with various AI models. Built with Next.js, TypeScript, and Tailwind CSS.
 
