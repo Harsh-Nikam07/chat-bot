@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Interface - Prototype v1.0",
-  description: "A modern AI chat interface with multiple model support",
-  keywords: ["AI", "Chat", "Interface", "GPT", "Claude", "Gemini"],
-  authors: [{ name: "AI Interface Team" }],
+  title: "AI Chat Bot - Prototype v1.0",
+  description: "A modern AI chat Chat Bot with multiple model support",
+  keywords: ["AI", "Chat", "Chat Bot", "GPT", "Claude", "Gemini"],
+  authors: [{ name: "AI Chat Bot Team" }],
 };
 
 export default function RootLayout({

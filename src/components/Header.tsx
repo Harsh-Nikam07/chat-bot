@@ -43,7 +43,7 @@ export function Header() {
 
                         <div>
                             <h1 style={{ color: 'var(--foreground)', fontWeight: 600, fontSize: '0.875rem' }}>
-                                AI Interface
+                                AI Chat Bot
                             </h1>
                             <p style={{ color: 'var(--foreground)', opacity: 0.6, fontSize: '0.75rem' }}>
                                 Prototype v1.0
