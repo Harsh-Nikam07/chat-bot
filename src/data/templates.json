@@ -1,0 +1,144 @@
+{
+  "models": [
+    {
+      "id": "gpt-4",
+      "name": "GPT-4",
+      "provider": "OpenAI",
+      "description": "Most capable GPT-4 model for complex tasks",
+      "icon": "🧠",
+      "maxTokens": 8192,
+      "defaultTemperature": 0.7
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
+      "provider": "OpenAI",
+      "description": "Fast and efficient for most tasks",
+      "icon": "⚡",
+      "maxTokens": 4096,
+      "defaultTemperature": 0.7
+    },
+    {
+      "id": "claude-3-opus",
+      "name": "Claude 3 Opus",
+      "provider": "Anthropic",
+      "description": "Most powerful Claude model",
+      "icon": "🎭",
+      "maxTokens": 4096,
+      "defaultTemperature": 0.7
+    },
+    {
+      "id": "claude-3-sonnet",
+      "name": "Claude 3 Sonnet",
+      "provider": "Anthropic",
+      "description": "Balanced performance and speed",
+      "icon": "📝",
+      "maxTokens": 4096,
+      "defaultTemperature": 0.7
+    },
+    {
+      "id": "gemini-pro",
+      "name": "Gemini Pro",
+      "provider": "Google",
+      "description": "Google's advanced AI model",
+      "icon": "✨",
+      "maxTokens": 2048,
+      "defaultTemperature": 0.7
+    },
+    {
+      "id": "llama-2-70b",
+      "name": "Llama 2 70B",
+      "provider": "Meta",
+      "description": "Open-source large language model",
+      "icon": "🦙",
+      "maxTokens": 4096,
+      "defaultTemperature": 0.7
+    }
+  ],
+  "templates": [
+    {
+      "id": "python-function",
+      "name": "Python Function",
+      "category": "coding",
+      "description": "Generates a Python function based on a description",
+      "prompt": "Write a Python function that {description}. Include proper error handling, type hints, and a docstring explaining the function's purpose, parameters, and return value.",
+      "parameters": {
+        "temperature": 0.3,
+        "maxTokens": 1500,
+        "topP": 0.95,
+        "frequencyPenalty": 0,
+        "presencePenalty": 0
+      }
+    },
+    {
+      "id": "blog-outline",
+      "name": "Blog Post Outline",
+      "category": "writing",
+      "description": "Creates a structured outline for a blog post",
+      "prompt": "Create a detailed blog post outline about {topic}. Include:\n1. An engaging title\n2. Introduction hook\n3. 3-5 main sections with subsections\n4. Key points to cover in each section\n5. Conclusion with call-to-action",
+      "parameters": {
+        "temperature": 0.7,
+        "maxTokens": 1000,
+        "topP": 0.9,
+        "frequencyPenalty": 0.2,
+        "presencePenalty": 0.1
+      }
+    },
+    {
+      "id": "market-analysis",
+      "name": "Market Analysis",
+      "category": "analysis",
+      "description": "Analyzes market trends from provided data",
+      "prompt": "Analyze the following market data and provide insights:\n{data}\n\nInclude:\n- Key trends identified\n- Statistical analysis\n- Predictions for next quarter\n- Recommendations for stakeholders",
+      "parameters": {
+        "temperature": 0.4,
+        "maxTokens": 2000,
+        "topP": 0.95,
+        "frequencyPenalty": 0,
+        "presencePenalty": 0
+      }
+    },
+    {
+      "id": "story-prompt",
+      "name": "Short Story Prompt",
+      "category": "creative",
+      "description": "Generates creative prompts for short stories",
+      "prompt": "Generate a creative short story based on the following elements:\nGenre: {genre}\nSetting: {setting}\nMain character: {character}\n\nWrite an engaging story with a clear beginning, middle, and end. Include vivid descriptions and compelling dialogue.",
+      "parameters": {
+        "temperature": 0.9,
+        "maxTokens": 2500,
+        "topP": 0.95,
+        "frequencyPenalty": 0.5,
+        "presencePenalty": 0.3
+      }
+    },
+    {
+      "id": "code-review",
+      "name": "Code Review",
+      "category": "coding",
+      "description": "Provides detailed code review with suggestions",
+      "prompt": "Review the following code and provide feedback:\n```{language}\n{code}\n```\n\nAnalyze for:\n- Code quality and best practices\n- Potential bugs or issues\n- Performance optimizations\n- Security concerns\n- Suggestions for improvement",
+      "parameters": {
+        "temperature": 0.3,
+        "maxTokens": 2000,
+        "topP": 0.95,
+        "frequencyPenalty": 0,
+        "presencePenalty": 0
+      }
+    },
+    {
+      "id": "email-draft",
+      "name": "Professional Email",
+      "category": "writing",
+      "description": "Drafts professional emails",
+      "prompt": "Draft a professional email with the following details:\nPurpose: {purpose}\nRecipient: {recipient}\nTone: {tone}\nKey points: {points}\n\nMake it concise, clear, and appropriate for a business context.",
+      "parameters": {
+        "temperature": 0.5,
+        "maxTokens": 800,
+        "topP": 0.9,
+        "frequencyPenalty": 0.1,
+        "presencePenalty": 0.1
+      }
+    }
+  ]
+}
